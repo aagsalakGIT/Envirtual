@@ -1,0 +1,41 @@
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "query_string": {
+                "query": "pageData.retailer:(Asda)"
+              }
+            }
+          ]
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "terms": {
+                "_type": [
+                  "detail"
+                ]
+              }
+            },
+            {
+              "range": {
+                "pageData.gatheredDataTime": {
+                  "from": "2015-04-08T00:00:00.000Z",
+                  "to": "2015-04-08T11:11:00.000Z"
+                }
+              }
+            },
+            {
+
+            }
+          ]
+        }
+      }
+    }
+  }
+}

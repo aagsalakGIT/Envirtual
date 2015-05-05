@@ -1,0 +1,7 @@
+
+2015/04/29 12:59:28 ESFPAGECOKE : -java.lang.AssertionError: No product is available on Search Term Analysis for Ocado here is some text.
+We are writing the text to the file.
+2015/04/29 13:00:41 ESFPAGECOKE : -java.lang.AssertionError: Diet coke table  on Search Term Comparison page does not have any listed products here is some text.
+We are writing the text to the file.
+2015/04/29 13:11:50 ESFPAGECOKE : -java.lang.AssertionError: Apple juice table  on Search Term Comparison page does not have any listed products here is some text.
+We are writing the text to the file.
